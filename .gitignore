@@ -43,3 +43,6 @@ Thumbs.db
 
 # ignore vscode folder
 .vscode/
+
+# ignore angular folder
+.angular/
