@@ -6,9 +6,7 @@
         <th>Tarefa</th>
         <th>Concluída</th>
         <th class="text-center">
-            <a href="#" class="btn btn-sx btn-success">
-                <span class="glyphicon glyphicon-plus"></span> Novo
-            </a>
+            <app-btn-adicionar></app-btn-adicionar>
         </th>
     </thead>
     <tbody>
@@ -19,13 +17,9 @@
             <td class="text-center" style="width: .4em">
                 <input type="checkbox">
             </td>
-            <td class="text-center" style="width: 30rem">
-                <a href="#" class="btn btn-xs btn-info" title="Editar" alt="Editar">
-                    <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar
-                </a>
-                <a href="#" class="btn btn-xs btn-danger" title="Remover" alt="Remover">
-                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Remover
-                </a>
+            <td class="text-center" style="width: 20rem">
+                <app-btn-editar></app-btn-editar>
+                <app-btn-remover></app-btn-remover>
             </td>
         </tr>
     </tbody>
