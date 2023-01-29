@@ -8,13 +8,15 @@ import { ListarTarefaComponent } from './listar/listar-tarefa.component';
 import { BtnEditarComponent } from '../botoes/btn-editar/btn-editar.component';
 import { BtnRemoverComponent } from '../botoes/btn-remover/btn-remover.component';
 import { BtnAdicionarComponent } from '../botoes/btn-adicionar/btn-adicionar.component';
+import { CadastrarTarefasComponent } from './cadastrar/cadastrar-tarefas.component';
 
 @NgModule({
   declarations: [
     ListarTarefaComponent,
     BtnEditarComponent,
     BtnRemoverComponent,
-    BtnAdicionarComponent
+    BtnAdicionarComponent,
+    CadastrarTarefasComponent
   ],
   imports: [
     CommonModule,
