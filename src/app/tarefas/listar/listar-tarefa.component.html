@@ -10,12 +10,15 @@
         </th>
     </thead>
     <tbody>
-        <tr>
-            <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi deleniti maiores sed tenetur cumque officiis minus adipisci sit, cupiditate aspernatur est nesciunt exercitationem, accusantium expedita quasi mollitia magnam cum non.
+        <tr *ngFor="let tarefa of tarefas">
+            <td [class.success]="!tarefa.concluida"> 
+                {{ tarefa.nome }} 
             </td>
-            <td class="text-center" style="width: .4em">
-                <input type="checkbox">
+            <td class="text-center" style="width: .4em"> 
+                <input 
+                    type="checkbox" 
+                    [value]="tarefa.id"
+                    [checked]="tarefa.concluida">
             </td>
             <td class="text-center" style="width: 20rem">
                 <app-btn-editar></app-btn-editar>
@@ -25,4 +28,4 @@
     </tbody>
 </table>
 
-<p>Nenhuma tarefa cadastrada.</p>
+<p *ngIf="tarefas.length==0">Nenhuma tarefa cadastrada.</p>
