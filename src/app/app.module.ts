@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TarefasModule } from './tarefas';
+import { EditarTarefasComponent } from './editar/editar-tarefas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EditarTarefasComponent
   ],
   imports: [
     BrowserModule,
