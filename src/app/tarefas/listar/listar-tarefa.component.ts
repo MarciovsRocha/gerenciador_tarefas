@@ -31,10 +31,4 @@ export class ListarTarefaComponent implements OnInit{
       this.tarefas = this.tarefaService.listarTodos();
     }
   }
-
-  // editar uma tarefa
-  alterarTarefa(){
-
-  }
-
 }
