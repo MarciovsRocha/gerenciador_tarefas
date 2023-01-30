@@ -3,13 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { TarefaRoutes } from "./tarefas";
 
 const routes: Routes = [
-  // para a URL padrão deve-se exibir a lista de tarefas
+  // para a URL padrï¿½o deve-se exibir a lista de tarefas
   {
     path: '',
     redirectTo: 'tarefas/listar',
     pathMatch: "full"
   },
-  // concatena o array de rotas de TarefaRoutes ao array que será criado 
+  // concatena o array de rotas de TarefaRoutes ao array que serï¿½ criado 
   ...TarefaRoutes 
 ];
 
@@ -18,3 +18,8 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+/* 
+ * alterada codificaÃ§Ã£o do arquivo para UTF-8 
+ * dev.marcio.rocha@gmail.com 29/01/2023
+ */

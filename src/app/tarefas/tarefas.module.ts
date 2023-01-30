@@ -28,3 +28,8 @@ import { CadastrarTarefasComponent } from './cadastrar/cadastrar-tarefas.compone
   ]
 })
 export class TarefasModule { }
+
+/* 
+ * alterada codificação do arquivo para UTF-8 
+ * dev.marcio.rocha@gmail.com 29/01/2023
+ */

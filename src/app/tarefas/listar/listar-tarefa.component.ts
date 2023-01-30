@@ -13,7 +13,7 @@ export class ListarTarefaComponent implements OnInit{
   
   constructor(private tarefaService: TarefaService) {}
 
-  // método executado quando criado um objeto
+  // mÃ©todo executado quando criado um objeto
   ngOnInit() {
     this.tarefas = this.listarTodos();
   }
@@ -23,7 +23,7 @@ export class ListarTarefaComponent implements OnInit{
     return this.tarefaService.listarTodos();
   }
 
-  // remover o elemento passado por par�metro
+  // remover o elemento passado por parâmetro
   remover($event: any, tarefa: Tarefa){
     $event.preventDefault();
     if (confirm('Deseja remover a tarefa "'+tarefa.nome+'"?')){
@@ -32,3 +32,8 @@ export class ListarTarefaComponent implements OnInit{
     }
   }
 }
+
+/* 
+ * alterada codificação do arquivo para UTF-8 
+ * dev.marcio.rocha@gmail.com 29/01/2023
+ */

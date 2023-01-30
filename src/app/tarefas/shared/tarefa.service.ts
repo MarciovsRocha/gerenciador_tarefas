@@ -13,7 +13,7 @@ export class TarefaService {
     localStorage['tarefas'] = JSON.stringify(tarefas);
   }
 
-  // lista todas as tarefas que estar�o armazenadas no localstorage
+  // lista todas as tarefas que estar�o armazenadas no localstorage
   listarTodos(): Tarefa[] {
     const tarefas = localStorage['tarefas'];
     return tarefas ? JSON.parse(tarefas) : [];
@@ -64,3 +64,8 @@ export class TarefaService {
 
 
 }
+
+/* 
+ * alterada codificação do arquivo para UTF-8 
+ * dev.marcio.rocha@gmail.com 29/01/2023
+ */

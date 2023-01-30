@@ -14,3 +14,8 @@ quote_type = single
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
+# /* 
+# * alterada codificação do arquivo para UTF-8 
+# * dev.marcio.rocha@gmail.com 29/01/2023
+# */
