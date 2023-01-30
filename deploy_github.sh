@@ -1,0 +1,1 @@
+ng deploy --base-href=https://marciovsrocha.github.io/gerenciador_tarefas/
